@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{
+    background-image: url(IMG/background.jpg);
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+}  
+
+*{
+    box-sizing: border-box;
+}
+
+main{
+    margin: 2% 18%;
+    width: 64%;
+    height: 600px;
+    background-color: rgba(0,0,0,.5);
+    border-radius: 2.5%;
+}
+
+header{
+    text-align: center;
+    color: rgb(0,255,0);
+    font-weight: bold;
+}
+
+header > img{
+    padding-top: 75px;
+    width: 200px;
+}
+
+header > div{
+    font-size: 23px;
+}
+
+nav{
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: rgb(0,255,0);
+    text-align: center;
+    padding: 5px;
+}
+
+section{
+    padding: 15px 80px;
+    color: white;
+    line-height: 3px;
+}
+
+.scooter_name{
+    line-height: 3px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.scooter_location, .charge_text{
+    font-size: 12px;
+    line-height: 3px;
+}
+
+.scooter_location:before{
+    content: "\21A6";
+}
+
+.chargebar{
+    height: 20px;
+    border-radius: 5px;
+}
+
+#gino22{
+    width: 300px;
+    background-color: #f5b453;
+}
+
+#mike24{
+    width: 475px;
+    background-color: #1ec31e;
+}
+
+#fede154{
+    width: 100px;
+    background-color: #be4141;
+}
